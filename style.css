@@ -9,13 +9,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .app-container {
     background-color: black; /* Slightly darker main app background */
     width: 100%;
-    max-width: 400px; /* Simulate a phone screen width */
+    max-width: 400px;
+    max-height: 100vh; /* Simulate a phone screen width */
     height: auto;
     display: flex;
     flex-direction: column;
